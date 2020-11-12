@@ -1,0 +1,147 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif ;
+	font-size:14px;
+	line-height: 24px; 
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif  ;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+.header-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+}
+.logo{
+	width:100%;
+	float: left;
+	padding: 15px 0px;
+}
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px 40px;
+	background: url("../images/Strict.jpg") center top no-repeat;
+	background-size: cover;
+}
+.banner-section .banner-inner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 20px;
+    text-align: center;
+}
+.banner-section .banner-inner h1{
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner-section .banner-inner .divider{
+  width: 40%;
+  height: 2px;
+  margin: 25px auto;
+  background: #15a4fa;
+}
+.banner-section .banner-inner p{
+font-size: 16px;
+  font-weight: 400;
+  line-height:26px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.banner-section .banner-inner .btn-info{
+ padding: 15px 40px;
+ background: transparent;
+ border: 1px solid #15a4fa;
+ color: #fff;
+ font-size: 16px;
+ display: inline-block;
+ margin: 25px 0px;
+ border-radius: 2px;
+ transition: 1s;
+}
+
+.banner-section .banner-inner .btn-info:hover{
+ background: #15a4fa;
+ border: 1px solid #15a4fa;
+ color: #fff;
+
+}
+.banner-section .banner-inner .icon{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+.simple-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.simple-section .simple-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.simple-section .simple-inner h1{
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.simple-section .simple-inner p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+}
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.feature-section .inner-feature{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.feature-section .inner-feature img{
+   margin-bottom: 20px;
+}
+.feature-section .inner-feature h4{
+   font-size: 22px;
+   line-height: 32px;
+   margin: 0px 0px 10px;
+   color: #000
+}
+.feature-section .inner-feature p{
+    font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+	margin: : 0px 320px;
+}
